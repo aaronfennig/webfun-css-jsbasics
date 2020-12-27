@@ -1,0 +1,70 @@
+a:link{
+    color:#57cae0;
+    text-decoration: underline;
+    background-color: black;
+}
+#bigbox{
+    background-color: #1b335d;
+    width: 100%;
+    display: block;
+    padding: 20px;
+}
+#headerbox{
+    background-color: #cf3036;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 130px; 
+    font-size: 50px;
+    align-items: center;
+    /*Can't get this to center-align with any of the alignment commands. what am i doing wrong?*/
+}
+#midbox{
+    background-color: #1b335d;
+    display: inline flex;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+#navbox{
+    background-color: #2a7d8c;
+    border-radius: 10px;
+    width: 285px;
+    height: 240px;
+    font-size: medium;
+    margin-right: 20px;
+}
+.navlinks{
+    color:#57cae0;
+    text-decoration: underline;
+    background-color: #2a7d8c;
+}
+#mainbox{
+    background-color: black;
+    border-radius: 10px;
+    width: 1200px;
+    border-radius: 10px;
+    display: block;
+}
+#mainhead{
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    margin: 20px;
+}
+.maininfo{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    font-size: 19px;
+}
+#footerbox{
+    background-color: #5d6673;
+    height: 90px;
+    border-radius: 10px;
+    align-content: center;/*can't get this centered vertically, just like the header*/
+}
+#footer{
+    color: white;
+    font-size: 19px;
+    align-items: center;/*????/
+}
